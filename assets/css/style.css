@@ -11,9 +11,7 @@
     background-color: #0D3E6B;
 }
 
-.container-page-one {
-    background-image: url(../img/background_quimica.png);
-    background-size: contain;
+section {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -26,3 +24,106 @@
     left: 0;
 }
 
+.h1-circle {
+    position: absolute;
+    top: 225px;
+    left: 80px;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.pots {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pot-1 {
+    top: 20px;
+    left: 80px;
+}
+
+.pot-2 {
+    top: 400px;
+    left: 100px;
+}
+
+.pot-3 {
+    top: 150px;
+    left: 300px;
+}
+
+.container-page-one {
+    background-image: url(../img/background_quimica.png);
+    background-size: contain;
+}
+
+.container-page-two {
+    position: relative;
+}
+
+.section .circle-one img,
+.section .circle-two img {
+    width: 85%;
+}
+
+.pots123 {
+    position: absolute;
+    bottom: 60px;
+    left: 120px;
+}
+
+.content-page-two,
+.content-page-tree,
+.content-page-four {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 700px;
+    border-radius: 100px;
+    background-color: rgba(20, 108, 187, 1);
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-page-two h1 {
+    font-size: 2rem;
+}
+
+.nomenclatura,
+.reacao,
+.links  {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #ffffff;
+}
+
+.nomenclatura h1 {
+    font-weight: bolder;
+}
+
+.nomenclatura span {
+    font-size: 1.1rem;
+}
+
+.container-page-tree {
+    position: relative;
+}
+
+.container-page-four {
+    position: relative;
+}
+
+.links h1 {
+    cursor: pointer;
+}
