@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let container = document.querySelector('.content-page-four span');
 
     saponificacao.addEventListener('click', () => {
-      container.innerHTML = 'Texto para saponificacao';
+      container.innerHTML = `Em termos gerais, a reação de saponificação ocorre quando um éster em solução aquosa de base inorgânica origina um sal orgânico e álcool. A Reação de saponificação também é conhecida como hidrólise alcalina, através dela é que se torna possível o feitio do sabão. Falando quimicamente, seria a mistura de um éster (proveniente de um ácido graxo) e uma base (hidróxido de sódio) para se obter sabão (sal orgânico). <span class="form-span">Éster + base forte → sabão + glicerol</span>`
     });
 
     aspirina.addEventListener('click', () => {
@@ -33,6 +33,5 @@ document.addEventListener('DOMContentLoaded', function () {
       container.innerHTML = 'Texto para essencias';
     });
   }
-
   displayTexts();
 });

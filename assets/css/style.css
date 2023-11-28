@@ -75,30 +75,40 @@ section {
 
 .content-page-two,
 .content-page-tree,
-.content-page-four {
+.content-page-four,
+.content-page-five {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
-    height: 700px;
+    height: 650px;
     border-radius: 100px;
     background-color: rgba(20, 108, 187, 1);
-    text-align: center;
-    padding: 20px;
+    padding: 30px;
     color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
 }
 
 .content-page-two h1 {
     font-size: 2rem;
 }
 
+.content-span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: justify;
+}
+
 .nomenclatura,
 .reacao,
-.links  {
+.links,
+.enunciado {
     position: absolute;
     top: 50px;
     left: 50px;
@@ -106,6 +116,11 @@ section {
     flex-direction: column;
     gap: 30px;
     color: #ffffff;
+}
+
+.form-span {
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .nomenclatura h1 {
@@ -126,4 +141,62 @@ section {
 
 .links h1 {
     cursor: pointer;
+}
+
+.enunciado {
+    width: 350px;
+    font-size: 2rem;
+}
+
+.enunciado img {
+    width: 80%;
+}
+
+.content-page-five span {
+    text-align: start;
+    width: 95%;
+    font-size: 1.4rem;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.option h1 {
+    background-color: #0F518F;
+    padding: 8px 10px;
+    border-radius: 15px;
+}
+
+.option span {
+    width: 100%;
+}
+
+@media (max-width: 1440px) {
+    .pots123 {
+        bottom: 25px;
+    }
+
+    .pots123 img {
+        width: 60%;
+    }
+
+    .content-page {
+        top: 50%;
+        left: 50%;
+        transform: translate(0%, -50%);
+    }
+
+    .content-page-five {
+        padding-top: 50px;
+    }
 }
