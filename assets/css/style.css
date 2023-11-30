@@ -21,6 +21,12 @@
     gap: 15px;
 }
 
+.error-page a {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .main-index {
     background-color: #0D3E6B;
 }
