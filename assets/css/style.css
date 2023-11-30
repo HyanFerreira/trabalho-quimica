@@ -240,13 +240,17 @@ section {
 }
 
 .correct {
-    width: 600px;
+    width: 700px;
     padding: 20px;
     background-color: #0D3E6B;
     border-radius: 15px;
     color: #ffffff;
     font-size: 1.2rem;
     line-height: 20px;
+}
+
+.correct span {
+    font-size: 1.6rem;
 }
 
 .nomenclatura,
