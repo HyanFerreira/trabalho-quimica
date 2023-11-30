@@ -440,4 +440,19 @@ section {
     .error-page {
         display: flex;
     }
+    .main-equipe {
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding: 30px 0 30px 0;
+    }
+    .section {
+        height: auto;
+    }
+    .container-equipe {
+        height: auto;
+    }
+    .menu-absolute {
+        display: none;
+    }
 }
