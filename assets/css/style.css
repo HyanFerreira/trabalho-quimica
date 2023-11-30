@@ -197,7 +197,7 @@ section {
     height: auto;
     border-radius: 100px;
     background-color: rgba(20, 108, 187, 1);
-    padding: 30px 30px 60px 30px;
+    padding: 40px 30px 60px 30px;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -274,10 +274,11 @@ section {
 
 .nomenclatura h1 {
     font-weight: bolder;
+    font-size: 2rem;
 }
 
 .nomenclatura span {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 .container-page-tree {
@@ -288,7 +289,12 @@ section {
     position: relative;
 }
 
+.container-page-four h1 {
+    font-size: 2rem;
+}
+
 .links h1 {
+    font-size: 2rem;
     cursor: pointer;
 }
 
@@ -301,10 +307,15 @@ section {
     width: 80%;
 }
 
+.content-page-five h1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
 .content-page-five span {
     text-align: start;
     width: 95%;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .options {
